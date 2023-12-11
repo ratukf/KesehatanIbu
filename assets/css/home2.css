@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+nav {
+  border-bottom: 1px solid #d35b5c;
+}
+nav .row .logo img {
+  width: 50px;
+  height: auto;
+}
+nav .row .logo .navbar-brand {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #d35b5c;
+  font-size: 32px;
+}
+nav .row a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #d35b5c;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 15px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row .navbar-brand {
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+.row .nav-links {
+  text-align: right;
+}
+.row .nav-links .navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.row .nav-links .navbar-nav .nav-item {
+  display: inline-block;
+  margin-left: 20px;
+}
+.row .nav-links .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+.row .nav-links .navbar-nav .nav-item .nav-link:hover {
+  color: #555;
+}
+
+section {
+  padding: 50px 0;
+  font-family: "Open Sans", sans-serif;
+}
+section .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 25px;
+}
+section .btn-primary {
+  background-color: #d35b5c;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+section .btn-primary:hover {
+  background-color: #0066ff;
+}
+
+footer {
+  background-color: #d35b5c;
+  padding: 20px 0;
+  color: #fff;
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+footer .container .footer-content {
+  text-align: center;
+}
+footer .container .footer-content h2 {
+  font-family: "Open Sans", sans-serif;
+}
+footer .container .footer-content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+}/*# sourceMappingURL=home2.css.map */

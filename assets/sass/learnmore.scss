@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$primary-color: lighten(#9e2a2b, 20%);
+$primary-color-darker: (#9e2a2b);
+$btn-primary-color: blue;
+$btn-primary-hover-color: #0066ff;
+$main-font: "Open Sans", sans-serif;
+$secondary-color: #333;
+$third-color: #d3d3d3;
+
+nav {
+  border-bottom: 1px solid $primary-color;
+
+  .row {
+    .logo img {
+        width: 50px; 
+        height: auto; 
+      }
+    .logo .navbar-brand {
+      font-family: $main-font;
+      font-weight: 700;
+      color: $primary-color;
+      font-size: 32px;
+    }
+
+    a {
+      font-family: $main-font;
+      font-weight: 700;
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-brand {
+        font-size: 24px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        text-align: right;
+
+        .navbar-nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .nav-item {
+                display: inline-block;
+                margin-left: 20px;
+
+                .nav-link {
+                    text-decoration: none;
+                    color: #333;
+                    font-size: 18px;
+
+                    &:hover {
+                        color: #555;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Style untuk bagian grafik
+.grafik {
+    padding: 100px 100px;
+  
+    .container {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1200px; // Atur lebar maksimum kontainer
+      
+      margin-bottom: 3vh; // Gunakan vh untuk margin yang responsif
+      
+      .row {
+        text-align: center;
+        margin-bottom: 2vh; // Gunakan vh untuk margin yang responsif
+        display: block;
+  
+        h2 {
+          font-family: $main-font;
+          color: $primary-color-darker;
+          font-size: 32px;
+          margin-bottom: 1.5vh; // Gunakan vh untuk margin yang responsif
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+  
+        img {
+          width: 80%;
+          max-width: 100%; // Pastikan gambar tidak melampaui lebar kontainer
+          height: auto;
+          margin-bottom: 0;
+        }
+  
+        p {
+          font-family: $main-font;
+          color: $secondary-color;
+          font-size: 16px;
+          line-height: 1.6;
+          margin-bottom: 50px; // Gunakan vh untuk margin yang responsif
+        }
+  
+        h4 {
+          font-family: $main-font;
+          color: $secondary-color;
+          font-size: 12px;
+          line-height: 1.0;
+          margin-bottom: 0.5vh; // Gunakan vh untuk margin yang responsif
+        }
+      }
+    }
+  
+    @media screen and (max-width: 768px) {
+      .container {
+        padding: 0 15px; // Tambahkan padding untuk ukuran perangkat yang lebih kecil
+      }
+    }
+  }
+
+
+footer {
+    background-color: $primary-color;
+    padding: 20px 0;
+    color: #fff;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+  
+      .footer-content {
+        text-align: center;
+        h2 {
+            font-family: $main-font;
+        }
+        p {
+            font-family: $main-font;
+          font-size: 14px;
+          margin: 0;
+        }
+      }
+    }
+  }
